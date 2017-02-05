@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:background="#FF0000">
+        <TextView
+            android:id="@+id/no_internet_textView"
+            android:layout_width="0dp"
+            android:layout_weight="75"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="22sp"
+            android:text="@string/no_internet_message"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:padding="5dp"
+            />
+        <ImageView
+            android:id="@+id/no_internet_imageView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:src="@drawable/ic_perm_scan_wifi_white_48dp"
+            android:scaleType="centerInside"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

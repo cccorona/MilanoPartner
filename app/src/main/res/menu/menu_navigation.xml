@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/ayuda"
+            android:title="Ayuda"
+            android:icon="@drawable/ic_help_white_24dp"/>
+
+        <item
+            android:id="@+id/pagos"
+            android:title="Pagos"
+            android:icon="@drawable/ic_credit_card_white_24dp"/>
+
+        <item
+            android:id="@+id/documentos"
+            android:title="Documentos"
+            android:icon="@drawable/ic_description_white_24dp"/>
+
+        <item
+            android:id="@+id/settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings_white_24dp"/>
+
+        <item
+            android:id="@+id/acerca"
+            android:title="Acerca de"
+            android:icon="@drawable/ic_info_white_24dp"/>
+    </group>
+</menu>

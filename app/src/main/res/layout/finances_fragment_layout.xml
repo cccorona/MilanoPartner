@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="#999999">
+
+    <RelativeLayout
+        android:id="@+id/arrows_panel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:background="#2b2b2b">
+        <ImageButton
+        android:id="@+id/left_arrow_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_keyboard_arrow_left_white_36dp"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerInside"    />
+        <LinearLayout
+            android:id="@+id/title_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+            <TextView
+                android:id="@+id/arrows_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/finances_per_week_title"
+                android:textAllCaps="true"
+                android:textColor="#DDD"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:id="@+id/current_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/finances_per_week_title"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:textColor="#AAA"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/right_arrow_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_keyboard_arrow_right_white_36dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerInside"  />
+
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60">
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/finances_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="60"/>
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/payment_panel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:background="#2b2b2b">
+        <TextView
+        android:id="@+id/estimated_payment_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/finances_stimated_payment"
+        android:layout_centerVertical="true"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+            android:textColor="#DDD"
+        android:layout_alignParentLeft="true"    />
+        <TextView
+            android:id="@+id/currency_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:textAllCaps="true"
+            android:textColor="#DDD"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/currency_simbol"
+            android:paddingRight="15dp"/>
+        <TextView
+            android:id="@+id/currency_simbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textAllCaps="true"
+            android:textColor="#DDD"
+            android:textSize="14sp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/payment_mount"/>
+        <TextView
+            android:id="@+id/payment_mount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/finances_test_payment"
+            android:layout_alignParentBottom="true"
+            android:textAllCaps="true"
+            android:textColor="#DDD"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/news_panel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="#FFF">
+        <TextView
+            android:textSize="18sp"
+            android:text="@string/share_text"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:textColor="#202020"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp">
+        </TextView>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/share_button"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_share_black_48dp"
+            android:foregroundGravity="center"/>
+
+
+        </RelativeLayout>
+
+</LinearLayout>

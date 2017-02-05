@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#323235"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/month_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAllCaps="true"
+            android:textSize="32sp"
+            android:text="ENERO"
+            android:layout_alignParentTop="true"
+
+            />
+        <TextView
+            android:id="@+id/year_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/month_title"
+            android:textSize="24sp"
+            android:text="2016"/>
+        <TextView
+            android:id="@+id/date_title"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/year_title"
+            android:lines="1"
+            android:text="2016/03/52--2016/03/25"/>
+
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:id="@+id/month_year_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="MARCH-2016"/>
+
+
+        <solar.blaz.date.week.WeekDatePicker
+            android:id="@+id/date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="10dp"
+            app:wdp_labelTextSize="12sp"
+            app:wdp_labelPadding="10dp"
+            app:wdp_firstDayOfWeek="monday"
+            app:wdp_indicatorDrawable="@android:color/holo_orange_light"
+            >
+
+        </solar.blaz.date.week.WeekDatePicker>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/getWeekButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/aceptar"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:layout_margin="0dp"
+        android:background="@color/transparent"/>
+
+
+</LinearLayout>

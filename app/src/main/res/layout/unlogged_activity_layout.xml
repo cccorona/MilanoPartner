@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_home_black_48dp">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="@string/login_title"
+        android:textSize="32sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/login_app_side"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="@string/login_version"
+        android:textSize="32sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/login_title"/>
+    <LinearLayout
+        android:id="@+id/login_bottons_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#214589"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/login_client_version"
+        >
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="@string/login_login_text"
+            android:textSize="32sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/login_client_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/login_client_app"
+        android:textSize="22sp"
+        android:textAllCaps="true"
+        android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"
+        />
+
+</RelativeLayout>

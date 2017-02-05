@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_container"
+        android:orientation="vertical"
+        android:weightSum="100"
+        >
+
+        <RelativeLayout
+            android:id="@+id/connection_button_panel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="15"
+            android:background="#334455"
+            >
+
+            <Button
+                android:id="@+id/connectButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/dialog_holo_dark_frame"
+                android:layout_centerInParent="true"
+                android:text="@string/main_connect"
+                android:textAllCaps="true"
+                android:textColor="#FFF"
+                android:textSize="22sp"
+                android:padding="15dp"/>
+            <FrameLayout
+                android:id="@+id/announce_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/main_content_panel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:orientation="vertical"
+            android:background="#998877">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v4.view.ViewPager>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/bottom_navigation_panel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="15"
+            android:background="#192834"
+            android:weightSum="100">
+            <ImageView
+                android:id="@+id/home_icon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:src="@drawable/ic_home_black_48dp"
+                android:scaleType="center"/>
+            <ImageView
+                android:id="@+id/finnances_icon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:src="@drawable/ic_attach_money_white_48dp"
+                android:scaleType="center"/>
+            <ImageView
+                android:id="@+id/rate_icon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:src="@drawable/ic_stars_white_48dp"
+                android:scaleType="center"/>
+            <ImageView
+                android:id="@+id/account_icon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:src="@drawable/ic_person_white_48dp"
+                android:scaleType="center"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
