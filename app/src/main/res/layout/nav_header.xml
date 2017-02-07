@@ -36,7 +36,7 @@
                 android:id="@+id/display_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mi Perfil"
+                android:text="@string/profile"
                 android:layout_marginTop="10dp"
                 android:layout_centerInParent="true"
                 android:textColor="#FFF"

@@ -80,4 +80,12 @@
     <string name="configuracion">Configuracion</string>
     <string name="acercade">Acerca de</string>
 
+    <string name="you_bought">Compraste:</string>
+    <string name="recinto_palacio">Palacio de los deportes</string>
+    <string name="date">Fecha:</string>
+    <string name="myName">Mi nombre</string>
+    <string name="profile">Mi perfil</string>
+    <string name="january">ENERO</string>
+
+
 </resources>

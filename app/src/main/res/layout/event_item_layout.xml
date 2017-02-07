@@ -45,7 +45,7 @@
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:textSize="20sp"
-                        android:text="Compraste:"
+                        android:text="@string/you_bought"
                         android:id="@+id/nombre_recinto"
                         android:textColor="#000"
                         android:textStyle="bold"
@@ -59,7 +59,7 @@
                         android:id="@+id/nombre_evento"
                         android:textSize="16sp"
                         android:layout_marginTop="5dp"
-                        android:text="Palacio de los deportes"
+                        android:text="@string/recinto_palacio"
                         android:textColor="#000"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
@@ -70,7 +70,7 @@
                         android:id="@+id/fecha_evento"
                         android:textSize="16sp"
                         android:layout_marginTop="5dp"
-                        android:text="Fecha:"
+                        android:text="@string/date"
                         android:textColor="#000"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
