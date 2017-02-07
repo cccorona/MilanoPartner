@@ -8,31 +8,31 @@
 
     <string name="main_connect">conectarse</string>
 
-    <string name="finances_per_week_title">esta semana</string>
-    <string name="finances_per_month_title">este mes</string>
-    <string name="finances_per_year_title">este año</string>
-    <string name="finances_per_all_title">todo</string>
-    <string name="finances_stimated_payment">pago estimado</string>
+    <string name="finances_per_week_title">Week</string>
+    <string name="finances_per_month_title">Month</string>
+    <string name="finances_per_year_title">Year</string>
+    <string name="finances_per_all_title">All</string>
+    <string name="finances_stimated_payment">Estimated payment</string>
     <string name="finances_test_payment">10,000</string>
     <string name="finances_currency_simbol">$</string>
 
     <string name="rate_start_rate">5.0</string>
-    <string name="rate_actual_rate">tu calificación actual</string>
-    <string name="rate_total_services">servicios totales</string>
-    <string name="rate_percent_acepted">porcentaje aceptado</string>
-    <string name="rate_five_start_services">servicios 5 estrellas</string>
+    <string name="rate_actual_rate">Your Current rating</string>
+    <string name="rate_total_services">Total services</string>
+    <string name="rate_percent_acepted">Porcentage accepted</string>
+    <string name="rate_five_start_services">5 star service</string>
 
     <string name="default_zero">0</string>
     <string name="title_activity_login">Sign in</string>
 
     <!--Net Messages -->
-    <string name="no_internet_message">verifique su conexion a internet</string>
+    <string name="no_internet_message">Check your Internet connection</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
-    <string name="prompt_password">contraseña</string>
-    <string name="prompt_user_name">usuario</string>
-    <string name="action_sign_in">ingresar</string>
+    <string name="prompt_password">Pasword</string>
+    <string name="prompt_user_name">User</string>
+    <string name="action_sign_in">To enter</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
@@ -44,40 +44,40 @@
 
 
     <!-- String related to week-->
-    <string name="lunes">Lunes</string>
-    <string name="martes">Martes</string>
-    <string name="miercoles">Miercoles</string>
-    <string name="jueves">Jueves</string>
-    <string name="viernes">Viernes</string>
-    <string name="sabado">Sabado</string>
-    <string name="domingo">Domingo</string>
+    <string name="lunes">Monday</string>
+    <string name="martes">Tuesday</string>
+    <string name="miercoles">Wendnesday</string>
+    <string name="jueves">Thursday</string>
+    <string name="viernes">Friday</string>
+    <string name="sabado">Saturday</string>
+    <string name="domingo">Sunday</string>
 
-    <string name="enero">enero</string>
-    <string name="febrero">febrero</string>
-    <string name="marzo">marzo</string>
-    <string name="abril">abril</string>
-    <string name="mayo">mayo</string>
-    <string name="junio">junio</string>
-    <string name="julio">julio</string>
-    <string name="agosto">agosto</string>
-    <string name="septiembre">septiembre</string>
-    <string name="octubre">octubre</string>
-    <string name="noviembre">noviembre</string>
-    <string name="diciembre">diciembre</string>
+    <string name="enero">January</string>
+    <string name="febrero">February</string>
+    <string name="marzo">March</string>
+    <string name="abril">April</string>
+    <string name="mayo">May</string>
+    <string name="junio">June</string>
+    <string name="julio">July</string>
+    <string name="agosto">August</string>
+    <string name="septiembre">September</string>
+    <string name="octubre">October</string>
+    <string name="noviembre">November</string>
+    <string name="diciembre">December</string>
 
-    <string name="editar">editar</string>
-    <string name="aceptar">aceptar</string>
-    <string name="seleccionar">seleccionar</string>
-    <string name="salir">salir</string>
+    <string name="editar">Edit</string>
+    <string name="aceptar">Accept</string>
+    <string name="seleccionar">Select</string>
+    <string name="salir">Get out</string>
 
-    <string name="share_text">INVITA AMIGOS</string>
-    <string name="share_title">compartenos en"</string>
+    <string name="share_text">Invite friends</string>
+    <string name="share_title">Share us on"</string>
 
 
-    <string name="ayuda">ayuda</string>
-    <string name="documentos">documentos</string>
-    <string name="pagos">pagos</string>
-    <string name="configuracion">configuracion</string>
-    <string name="acercade">acerca de</string>
+    <string name="ayuda">Help</string>
+    <string name="documentos">Documents</string>
+    <string name="pagos">Payments</string>
+    <string name="configuracion">Configuration</string>
+    <string name="acercade">About</string>
 
 </resources>

@@ -5,6 +5,8 @@
     <color name="colorAccent">#FFF</color>
     <color name="transparent">#00ffffff</color>
     <color name="White">#FFF</color>
+    <color name="primary_color">#330354</color>
+    <color name="lbl">#23073D</color>
 
 
 </resources>

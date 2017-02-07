@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">MilanoPartner</string>
+
+    <string name="login_title">Milano</string>
+    <string name="login_version">Partner</string>
+    <string name="login_login_text">entrar</string>
+    <string name="login_client_app">app para clientes</string>
+
+    <string name="main_connect">Conectarse</string>
+
+    <string name="finances_per_week_title">Esta semana</string>
+    <string name="finances_per_month_title">Este mes</string>
+    <string name="finances_per_year_title">Este año</string>
+    <string name="finances_per_all_title">Todo</string>
+    <string name="finances_stimated_payment">Pago estimado</string>
+    <string name="finances_test_payment">10,000</string>
+    <string name="finances_currency_simbol">$</string>
+
+    <string name="rate_start_rate">5.0</string>
+    <string name="rate_actual_rate">Tu calificación actual</string>
+    <string name="rate_total_services">Servicios totales</string>
+    <string name="rate_percent_acepted">Porcentaje aceptado</string>
+    <string name="rate_five_start_services">Servicios 5 estrellas</string>
+
+    <string name="default_zero">0</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!--Net Messages -->
+    <string name="no_internet_message">Verifique su conexion a internet</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_user_name">Usuario</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <!-- String related to week-->
+    <string name="lunes">Lunes</string>
+    <string name="martes">Martes</string>
+    <string name="miercoles">Miercoles</string>
+    <string name="jueves">Jueves</string>
+    <string name="viernes">Viernes</string>
+    <string name="sabado">Sabado</string>
+    <string name="domingo">Domingo</string>
+
+    <string name="enero">Enero</string>
+    <string name="febrero">Febrero</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+    <string name="mayo">Mayo</string>
+    <string name="junio">Junio</string>
+    <string name="julio">Julio</string>
+    <string name="agosto">Agosto</string>
+    <string name="septiembre">Septiembre</string>
+    <string name="octubre">Octubre</string>
+    <string name="noviembre">Noviembre</string>
+    <string name="diciembre">Diciembre</string>
+
+    <string name="editar">Editar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="salir">Salir</string>
+
+    <string name="share_text">INVITA AMIGOS</string>
+    <string name="share_title">Compartenos en"</string>
+
+
+    <string name="ayuda">Ayuda</string>
+    <string name="documentos">Documentos</string>
+    <string name="pagos">Pagos</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="acercade">Acerca de</string>
+
+</resources>
