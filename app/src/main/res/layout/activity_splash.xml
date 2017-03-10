@@ -2,9 +2,9 @@
     android:id="@+id/activity_splash"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/black_splash" >
+    android:background="@color/primary_color" >
 
-    <ImageView
+    <!--<ImageView
         android:id="@+id/splash_login"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
@@ -13,6 +13,16 @@
         android:layout_marginLeft="0dp"
         android:visibility="visible"
         android:layout_centerInParent="true"/>
+-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:padding="20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo" />
 
 
 
